@@ -8,5 +8,8 @@ setup(
     license='MIT',
     author='Sascha Rechenberger',
     author_email='sascha.rechenberger@uni-ulm.de',
-    description='Convert PNG files to NES chr files'
+    description='Convert PNG files to NES chr files',
+    install_requires=[
+        'Pillow~=8.4.0'
+    ]
 )
